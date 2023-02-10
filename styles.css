@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;    
+}
+/* tripografias
+font-family: 'Quicksand', sans-serif;
+font-family: 'Bowlby One SC', cursive;
+
+*/
+body{
+  background-color: #68DDBD;
+}
+
+h4{
+  font-style: Bold;
+}
+
+#portada{
+  background-color: #313E4E;
+  border-bottom-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+  }
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
+
+ul a{
+  border-bottom: 1px solid #68DDBD;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.seccionesconbordetop{
+  padding-top: 1%;
+}
+
+.segmento_fotodeperfil div a{
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.img_redonda{
+  border-radius: 50%;
+  display: block;
+  max-width: 70%;
+}
+
+.segmento_fotodeperfil p{
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 1.5rem;
+  color: #FFE5C3;
+}
+
+#sobre_mi{
+  max-width: 100%;
+}
+
+#seccion_experiencia{
+  background-color: #E5E5E5;
+}
+
+#estudios p:first-child{
+font-style: medium;
+font-weight: 100;
+}
+
+#estudios>p:last-child{
+  font-style: Bold;
+  font-weight: 100;
+}
+
+.caja_tecnologias{
+  border: 40px solid #313E4E; 
+  background: #313E4E;  
+}
+
+.caja_tecnologias p{
+  color: #ddd;
+}
+.color-azul{
+    color:#2a9fea;
+}
+  
+  hr {
+    width:50px;
+    border: 1px solid #FFE5C3;
+    margin-top:4px;
+  }
+  .circle{
+    background-color:#FFE5C3;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    padding-top:10px;
+  }
+  .fa{
+    color:#313E4E;
+  }
+  .block-border{
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 4px;
+    border-radius: 4px 4px 0 0; 
+  }
+
+  footer{
+    background-color: #03BB85;
+    margin-top: 1%;
+    padding-top: 2%;
+    border-top-right-radius: 80px 80px;
+    border-top-left-radius: 80px 80px;
+  }
+
+  footer h6{
+    color: #FFE5C3;
+    font-size: 32px;
+    font-family: 'Bowlby One SC', cursive;
+  }
+ 
+  footer p{
+    color: black;
+  }
+
+
+  /* API de d.none para distintos dispositivos 
+    "display": (
+      responsive: true,
+      print: true,
+      property: display,
+      class: d,
+      values: inline inline-block block grid table table-row table-cell flex inline-flex none
+    ), */
