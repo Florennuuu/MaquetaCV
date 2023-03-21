@@ -34,19 +34,19 @@
                 </li>
               </ul>
         </nav>
-      
+
 
       <div class="container text-center">
         <div class="row segmento_fotodeperfil">
-          <div class="col align-self-start">
+          <div class="col align-self-start d-none d-sm-block">
             <p>Hola</p>
             <br>
             <p>Hi</p>
           </div>
           <div class="col align-self-center">
-            <img class="img_redonda mx-auto" src="img/florendeveloper.png" alt="">
+            <img class="img_redonda mx-auto" src="florendeveloper.png" alt="">
           </div>
-          <div class="col align-self-end"> 
+          <div class="col align-self-end d-none d-sm-block"> 
               <p>Me llamo</p>
               <br>
               <p>My name is</p>           
@@ -58,8 +58,6 @@
           </div>
         </div>       
       </div>
-
-
     </div>
 
       <!--sobre mi-->
@@ -85,12 +83,14 @@
       
       <!--experiencia --> 
       <div id="seccion_experiencia" class="seccionesconbordetop">
-        <div class="row p-5">
+        <div class="row-fluid">
+          
           <h3 class="col-xs-12">
             Experiencia
             <hr />
           </h3>
-          <div class="col-12 col-sm-4" >
+          
+          <div class="col-6 col-sm-4" >
             <h4>Conaxis</h4>
             
             <p class="my-0">Junio-Octubre 2020</p>
@@ -102,7 +102,7 @@
               mobile para el cliente<br>
               Peer Collective.</p>
           </div>
-          <div class="col-12 col-sm-4">
+          <div class="col-6 col-sm-4">
             <h4>Finnegans</h4>
             
             <p class="my-0">Agosto-Diciembre 2021</p>
@@ -114,10 +114,10 @@
               visualización, realización de<br> 
               casos de prueba y su ejecución</p>
           </div>
-            <!-- Obligar a las siguientes columnas a pasar a una nueva línea en el breakpoint md y hacia arriba -->
-            <div class="w-100 d-none d-md-block"></div>  
+            <!-- Obligar a las siguientes columnas a pasar a una nueva línea en el breakpoint md y hacia arriba 
+            <div class="w-100 d-none d-md-block"></div>  -->
           
-            <div class="col-12 col-sm-4">
+            <div class="col-6 col-sm-4">
               <h4>Café Pictórico</h4>
               
               <p class="my-0">Enero 2022-Actualidad</p>
@@ -129,7 +129,7 @@
                 Diseños digitales: <br>
                 manuales de marca y logos.</p>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-6 col-sm-4">
               <h4>CP soluciones</h4>
               
               <p class="my-0">Diciembre 2022-Actualidad</p>
@@ -139,8 +139,9 @@
                 webs sencillas. Disponibilizo<br>
                  E-commerce con Wordpress.</p>
             </div>
+          </div>
         </div>
-      </div>
+      
    <!--estudios-->
   <div id="estudios" class="seccionesconbordetop p-5">
     <h3 class="text">Estudios</h4>
@@ -176,7 +177,7 @@
     <div id="sobre_mi" class="container seccionesconbordetop">
 <div class="row">
       <h3 class="col-xs-12">
-        Tecnologias
+        Destacados
         <hr/>
       </h3>
 </div>
@@ -190,11 +191,9 @@
            <p>
              <strong>CSS</strong>
              <br />
-             CP Soluciones
+             Color
              <br />
-             Finnegans
-             <br />
-             Astilleros Digitales
+             Diseño
            </p>
           </div>
           <div class="col-md-4 text-center">
@@ -204,11 +203,9 @@
            <p>
              <strong>HTML</strong>
              <br />
-             php, Js, Python
+             Maquetación
              <br />
-             Angular, Eclipse
-             <br />
-             Bootstrap, jQuery
+             Me capacito en UI
            </p>
           </div>
           <div class="col-md-4 text-center">
@@ -217,13 +214,11 @@
            </div>
           
            <p>
-             <strong>JavaScript</strong>
+             <strong>Figma</strong>
              <br />
-             Ingles: 95% -> Leido
+             Primer proyecto
              <br />
-             85% -> Conversación
-             <br />
-             Español: Nativo
+             <a href="https://www.figma.com/file/09p5iSnPQ5XD2u6oIRwHbU/Untitled?node-id=15%3A51&t=wXyNcHRZfLtvyQ6F-0">Mockup</a>
            </p>
           </div>
           </div>          
@@ -236,20 +231,44 @@
       <div class="col-6">
         <h6>Redes</h6>
         <div>
-          <p>Behance</p>
-          <p>Git Hub</p>
-          <p>Linkedin</p>
+          <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+          <div id="menu" >
+              <a href="https://www.behance.net/florencianiez" target="_blank" id="home">
+                  <img id='menuImg' src="https://icons.veryicon.com/png/o/miscellaneous/eva-icon-fill/behance-63.png" alt="logo" width="40px" height="40px"
+          onmouseover="onHover();" onmouseout="offHover();" />
+              </a>
+          </div>
+          <br>
+          <!-- github -->
+          <div id="github" >
+            <a href="https://github.com/Florennuuu" target="_blank" id="home">
+                <img id='menuGit' src="https://cdn.freebiesupply.com/logos/thumbs/2x/github-icon-1-logo.png" alt="logo" width="40px" height="30px"
+        onmouseover="onHover2();" onmouseout="offHover2();" />
+            </a>
+        </div>
+        <br>
+        <!-- Linkedin -->
+        <div id="linkedin" >
+          <a href="https://www.linkedin.com/in/florencia-nu%C3%B1ez-13a432195/" target="_blank" id="home">
+              <img id='menuLinkedin' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD////f39/p6ekrKyvX19fm5ubJycmioqL5+fn29va0tLQ+Pj6tra2WlpZdXV0fHx/BwcGoqKjw8PCPj49jY2O6urp0dHSdnZ0WFhYyMjJFRUVNTU0JCQl8fHzR0dGEhIRsbGwlJSVTU1M1NTVISEiIiIgEpGRAAAAEnElEQVR4nO2d6XaqMBRGQa0DFHCeaq1U2/d/xFu0617bS3JyMpiE9e21/GfwbAwknAwk6RdZUU2TrjGtiqyRS74+ue9gnJHfDEvfcTikbAy7+w825GmS+Y7BMVlS+A7BMUVS+Q7BMVXSvWbiJ133AwAAAAAAAAAAAAAAAKDGaz5JBSzGvoOzwXkh8mvov/uOz5y+TDBNn3zHZ8xWLpimR98RmvJEGc58R2jKkDLs+Y7QFOIyhGEEwBCG4QNDGIYPDGEYPjCEYfjAEIbhA8P4Dbufp+l+rq2kDDe+IzSGqKZvvuMz51l6r+ntfMdng2KYTVrJhlvfsdnifdBKB8adAAAAAAAAAN1nsDoeT8tyu/w8Hetn39FY5jxe937NiJwsRkX8GZMrL+WbOKcwzGsHWYVDORu1MltepAVX89Zi45W4yKUk05fZ2vYeF2PZzy3F5XYjYanRa3uRjeTfu6dvNXuSy39MrNiTlGpNI9dkfv2OreAk8VlRPyW6ycknpv7/J9SyM9LG2JKjuKp9MxcUFE4Ov7L49e2LYv38cQzJ9cyAPLOCadA7eanJ/se3l3y/BisjCrpjTwOi2H3l3nMr6F8mH8EaTu4Mj7p+DeadAPeGcxNBC9uwOTckb2UUkiY5BMM92YWhMayobg33nEZeiFmr4dRwKl1xpMzCqO131Vq8NN+xI2jYLroy/KpZFytV9EodoOE8qTJLeun/ncAQDFNbNfSGQZPhzNAumf6TfySGLY9jXTPsd95Qv9mPxlB76lI0hmkshsPZ9lRXh6o+rZnPxbod8Icarn9dTKrZxVvh4A17ny2H2c+Uy+vuZ/0ow4Woksl3PLjnJWhDSYP9qlpVNS/Ehxj29+0H+WatdhTNbs0jDMmmTC2Xo9kiPsBQYUN4pSfJYaiGKnf5g8qBFnrPF84N1epWoXIovZFw14aKVWsnH+i5cQjS8KwYBzGMeUXv8cKxofJrJ1SOdwrQkJHpVOiH6w1huDVkJJAU7jWiwVqfhoxAyOF23cSwU0PO+3uIQeWGUXiGrKcBul8TniEvU02uE9TsmLo05J1zuvutt3ecS0NeKp6+mYZnqNqfufFJHk9vwa5DwwXvHUV1fIbM57kqPkPmZXO2fcrcGzLf1/cRnyFzVPM5PkPmvqADclQ8OEPmZGZ6akpwhty0ChlKcIbcpeDkBLHQDCfcUGAIw4cbsucxkbmo0AzZvcjoDNk5h+gM2Zmx6AzZMwtgGJwh+2XnMAzOkP22cxgGZ8geKYJhcIbst/DAEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYWh6WMG6kKl9Q3J5nt6aGXJNnGjSCLmAnr0VCbl4TW+F5YY6rGiZP7W1LH/DHHLrCM3tW4hNfsR1jbiCNbYHkO4Ob7ADpnQ3A8nFNJBdN5nW+ZYqsufJ/aPKnwTM5ZtNb2aCcm/lQC+Uj7kolNz26wQAAAAAAAAAAAAAAAAAgEDh7e8XH9Ok60n/KmGvjY+MItF9v0csZInJ4FsE5Gli4YWlAVOmjWGH/8VmEDu5DjwXVfcajWlVXDeU/AOrm1R+84CfuwAAAABJRU5ErkJggg==" alt="logo" width="40px" height="30px"
+      onmouseover="onHover3();" onmouseout="offHover3();" />
+          </a>
+      </div>
         </div>
       </div>      
-      <div class="col-md-3 ml-3">
-        <img class="img_redonda" src="img/Aldodibuja.jpg" alt="ilustracionporaldodibuja">
+      <div class="col-md-3 ml-3 d-none d-sm-block">
+        <img class="img_redonda" src="Aldodibuja.jpg" alt="ilustracionporaldodibuja">
       </div>
       <div class="w-100 d-none d-md-block"></div>
       <div class="col-6">
         <h6>
           Contactame
         </h6>
-        <p>florencianunnez20@gmail.com</p>
+        <div>
+          <p>
+            florencianunnez20@gmail.com
+          </p>
+        </div>
       </div>
     </div>
   </footer>
