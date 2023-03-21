@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;    
+    font-family: 'Quicksand', sans-serif;   
+   /* border: solid red 1px;*/
 }
 /* tripografias
 font-family: 'Quicksand', sans-serif;
@@ -13,6 +14,9 @@ body{
 
 h4{
   font-style: Bold;
+}
+nav {
+  display: block;
 }
 
 #portada{
@@ -49,7 +53,7 @@ ul a{
 }
 
 .segmento_fotodeperfil p{
-  font-family: 'Bowlby One SC', cursive;
+  /* font-family: 'Bowlby One SC', cursive; */
   font-size: 1.5rem;
   color: #FFE5C3;
 }
@@ -106,6 +110,12 @@ font-weight: 100;
     border-radius: 4px 4px 0 0; 
   }
 
+  div div div p a{
+  text-decoration: none;
+  color: rgb(194, 72, 184);
+
+}
+
   footer{
     background-color: #03BB85;
     margin-top: 1%;
@@ -117,11 +127,17 @@ font-weight: 100;
   footer h6{
     color: #FFE5C3;
     font-size: 32px;
-    font-family: 'Bowlby One SC', cursive;
+    /*font-family: 'Bowlby One SC', cursive;*/
   }
  
   footer p{
     color: black;
+  }
+
+  footer div div div p a{
+    text-decoration: none;
+    color: rgb(194, 72, 184);
+    outline: none;
   }
 
 
@@ -132,4 +148,21 @@ font-weight: 100;
       property: display,
       class: d,
       values: inline inline-block block grid table table-row table-cell flex inline-flex none
-    ), */
+    ), 
+
+    @include media-breakpoint-up(sm) {
+      nav {
+        display: none;
+      }
+    }*/
+
+    @media (max-width: 576px) { 
+      nav {
+        display: none;
+      }
+
+     }
+
+     ::-webkit-scrollbar{
+      display: none;
+     }
