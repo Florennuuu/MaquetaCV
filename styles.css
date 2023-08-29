@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;   
-   /* border: solid red 1px;*/
+    font-family: 'Quicksand', sans-serif;    
 }
 /* tripografias
 font-family: 'Quicksand', sans-serif;
@@ -64,6 +63,10 @@ ul a{
 
 #seccion_experiencia{
   background-color: #E5E5E5;
+}
+
+#seccion_experiencia div .my-0{
+  font-size: 0.7rem;
 }
 
 #estudios p:first-child{
@@ -129,7 +132,7 @@ font-weight: 100;
     font-size: 32px;
     /*font-family: 'Bowlby One SC', cursive;*/
   }
- 
+  
   footer p{
     color: black;
   }
@@ -158,6 +161,10 @@ font-weight: 100;
 
     @media (max-width: 576px) { 
       nav {
+        display: none;
+      }
+
+      nav .img_redonda{
         display: none;
       }
 
