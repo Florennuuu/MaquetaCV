@@ -84,11 +84,14 @@ font-weight: 100;
   background: #313E4E;  
 }
 
-.caja_tecnologias p{
-  color: #ddd;
+.caja_tecnologias>p{
   margin-top: 2rem;
   margin-bottom: 0;
-  text-align: left;
+}
+.caja_tecnologias p{
+  color: #ddd;
+  margin-bottom: 1rem;
+  
 }
 
 .caja_tecnologias img{
