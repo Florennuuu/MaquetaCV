@@ -93,7 +93,6 @@ font-weight: 100;
   margin-bottom: 1rem;
   
 }
-
 .caja_tecnologias img{
 width: 2em;
 height: 2em;
@@ -154,21 +153,9 @@ height: 2em;
     outline: none;
   }
 
-
-  /* API de d.none para distintos dispositivos 
-    "display": (
-      responsive: true,
-      print: true,
-      property: display,
-      class: d,
-      values: inline inline-block block grid table table-row table-cell flex inline-flex none
-    ), 
-
-    @include media-breakpoint-up(sm) {
-      nav {
-        display: none;
-      }
-    }*/
+  footer .img_redonda{
+    max-width: 45%;
+  }
 
     @media (max-width: 576px) { 
       nav {
