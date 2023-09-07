@@ -116,6 +116,7 @@ height: 2em;
   .fa{
     color:#313E4E;
   }
+
   .block-border{
     background-color: #fff;
     border-color: #ddd;
@@ -154,14 +155,13 @@ height: 2em;
   }
 
   footer .img_redonda{
-    max-width: 45%;
+    max-width: 40%;
   }
 
     @media (max-width: 576px) { 
       nav {
         display: none;
       }
-
      }
 
      ::-webkit-scrollbar{
